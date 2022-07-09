@@ -5,16 +5,16 @@
 ## About
 A simple command-line messenger written in c.
 ## How To Use
-user can write command below for using this messenger.
+Users can use commands below for interact with this messenger.
 #### login and logout
-user can easily login or logout by commands in below.
+User can easily login or logout using commands below.
 <br>
 `login <username> <pass>`
 `logout`
 #### signing up
 `signup <username> <password> <number>`
 <br>
-Hint: phone number and username should be unique. 
+Hint: phone number and username must be unique. 
 #### editing info
 `edit_username <new username>`
 <br>
@@ -26,7 +26,7 @@ Hint: phone number and username should be unique.
 <br>
 `about <username>`
 <br>
-Hint: about command dispaly more info about specific user.
+Hint: about command dispalys more info about a specific user.
 #### dispalying received messages
 This command will show received messages that you received from the user.
 <br>
@@ -37,6 +37,4 @@ This command will show sent messages that you sent to the user.
 `show_sent <username>`
 #### closing meessenger
 `close`
-
-
 
